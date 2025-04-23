@@ -43,6 +43,6 @@
 </head>
 <body>
     <h1>ALWAYS DILEEP</h1>
-    <h2>PERSEVERANCE SOFTWARE INSTITUTE</h2>
+    <h2>SOFTWARE INSTITUTE</h2>
 </body>     
 </html>
