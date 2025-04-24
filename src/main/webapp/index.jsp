@@ -43,6 +43,6 @@
 </head>
 <body>
     <h1>VENKAT SATHVICK</h1>
-    <h2>SOFTWARE INSTITUTE</h2>
+    <h2>SOFTWARE </h2>
 </body>     
 </html>
