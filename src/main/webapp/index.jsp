@@ -42,7 +42,7 @@
     </style>
 </head>
 <body>
-    <h1>VENKAT SATHVICK vbh</h1>
+    <h1>VENKAT SATHVICK</h1>
     <h2>SOFTWARE INSTITUTE</h2>
 </body>     
 </html>
