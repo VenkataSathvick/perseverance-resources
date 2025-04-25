@@ -1,13 +1,31 @@
+trigger:
 - main
 pool:
   name: venkyagent
-variables:
-  nginx_version: '2.4.8'
-  deploy: 'dev'
-jobs:
-- job: UserDefinedVariables
-  steps:
-  - script: |
-      echo "nginx version : $(nginx_version)"
-      echo "deploying to : $(deploy)"
-    displayName: 'utilizing variables'
+stages:
+- stage: Build
+  displayName: "Build Stage"
+  jobs:
+  - job: BuildJob
+    displayName: "Build Job"
+    steps:
+    - script: echo "Building the project..."
+      displayName: "Build Step"
+- stage: Test
+  displayName: "Test Stage"
+  dependsOn: Build
+  jobs:
+  - job: TestJob
+    displayName: "Test Job"
+    steps:
+    - script: echo "Running tests..."
+      displayName: "Test Step"
+- stage: Deploy
+  displayName: "Deploy Stage"
+  dependsOn: Test
+  jobs:
+  - job: DeployJob
+    displayName: "Deploy Job"
+    steps:
+    - script: echo "Deploying the application..."
+      displayName: "Deploy Step"
