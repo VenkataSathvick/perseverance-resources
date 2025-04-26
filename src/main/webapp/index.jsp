@@ -42,7 +42,7 @@
     </style>
 </head>
 <body>
-    <h1>IPL SRH - Careers</h1>
+    <h1>it techologies</h1>
     <h2>SOFTWARE </h2>
 </body>     
 </html>
