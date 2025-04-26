@@ -42,7 +42,7 @@
     </style>
 </head>
 <body>
-    <h1>VS - Careers</h1>
+    <h1>SunRisers - Careers</h1>
     <h2>SOFTWARE </h2>
 </body>     
 </html>
